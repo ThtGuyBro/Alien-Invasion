@@ -26,7 +26,7 @@ class Ship:
             self.x -= self.settings.ship_speed
         if self.moving_up and self.y > 0:
             self.y -= self.settings.ship_speed
-        if self.moving_down and self.y < 800:
+        if self.moving_down and self.y < 1050:
             self.y += self.settings.ship_speed
 
         self.rect.x = self.x
